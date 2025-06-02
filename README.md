@@ -54,4 +54,5 @@ We convert pixels/frame to meters/second by considering perspective.
 ## Team & Credits
 
 Developed by: Lasya Lalpet Venkata, Harish Miriyala.
+
 We thank OpenCV community tutorials for guidance on vehicle detection and the traffic surveillance lab for providing video data.
