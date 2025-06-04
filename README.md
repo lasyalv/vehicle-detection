@@ -32,9 +32,12 @@ We convert pixels/frame to meters/second by considering perspective.
 - **Performance:** Utilized GPU acceleration (`CUDA`) for running YOLO to achieve near real-time performance (~15 FPS detection).  
 - **Testing:** Measured accuracy by comparing estimated speed vs. manual measurement for sample vehicles.
 
-
 ## Results & Insights
 
+<div align='center'>
+  <img src='assets/vehicle_detection.gif' alt='demo'>
+ </div
+    
 - We achieved an average speed estimation error of ±5 km/h on test samples, within acceptable range for monitoring.  
 - The system successfully tracked multiple vehicles simultaneously; trajectories showed realistic traffic flow patterns.  
 - **Key insight:** Cars at the far end of the frame appeared slower due to perspective; we adjusted our calibration matrix accordingly.  
